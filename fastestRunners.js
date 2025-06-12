@@ -1,9 +1,9 @@
 function downloadArchive() {
     // Временная ссылка, обновите после загрузки архива
-    const archiveUrl = 'https://raw.githubusercontent.com/glizxgod/download-site/main/Tasks.zip';
+    const archiveUrl = 'https://raw.githubusercontent.com/glizxgod/download-site/main/Tasks.rar';
     const link = document.createElement('a');
     link.href = archiveUrl;
-    link.download = 'Tasks.zip';
+    link.download = 'Tasks.rar';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
